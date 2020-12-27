@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+const { spawn } = require('child_process');
+
+var isWin = process.platform === 'win32';
+var isMac = process.platform === 'darwin';
+
+let cmd = __dirname + '/compiled/linux/maka';
+if (isWin) {
+  cmd = __dirname + '/compiled/win/maka.exe';
+} else if (isMac) {
+  cmd = __dirname + '/compiled/macos/maka';
+}
+
+try {
+  const maka = spawn(cmd, process.argv.slice(2), {
+    stdio: 'inherit'
+  });
+
+} catch(err) {
+  console.error(err);
+}
