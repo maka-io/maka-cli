@@ -12,7 +12,7 @@ Please visit www.maka-cli.org for more information and documentation as well as 
 
 Documentation has moved over to:
 
-[maka-cli.org](http://www.maka-cli.org)
+[maka-cli.com](http://www.maka-cli.com)
 
 
 ## License
