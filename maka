@@ -2,8 +2,8 @@
 
 const { spawn } = require('child_process');
 
-var isWin = process.platform === 'win32';
-var isMac = process.platform === 'darwin';
+const isWin = process.platform === 'win32';
+const isMac = process.platform === 'darwin';
 
 let cmd = __dirname + '/compiled/linux/maka';
 if (isWin) {
