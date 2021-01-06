@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/maka-io/maka-cli#readme",
   "dependencies": {
-    "cli-notifier": "^1.0.1",
     "fibers": "^5.0.0"
   }
 }
