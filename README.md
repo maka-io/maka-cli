@@ -15,6 +15,13 @@ Documentation has moved over to:
 [maka-cli.com](https://www.maka-cli.com/documentation#documentation)
 
 
+## NEWS
+With version 3.1.8, there is a new React Hook generator!
+
+```
+  maka g:hook cool-new-hook
+```
+
 ## License
 Copyright (C) 2021 Campbell Labs, LLC.
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
