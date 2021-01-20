@@ -1,6 +1,6 @@
 {
   "name": "@maka/maka-cli",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "A command line tool for scaffolding Meteor 1.12.x applications using either React, Reflux, or Blaze.",
   "bin": {
     "maka": "./maka"
