@@ -1,24 +1,44 @@
 {
-  "name": "@maka/maka-cli",
-  "version": "3.1.30",
-  "description": "A command line tool for scaffolding Meteor 1.12.x applications using either React, Reflux, or Blaze.",
+  "name": "maka-cli",
+  "version": "3.1.9",
+  "description": "A command line tool for scaffolding, organizing, and DevOps-ing Meteor 1.12.x and 2.x applications using either React, Reflux, or Blaze.",
   "bin": {
     "maka": "./maka"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/maka-io/maka-cli.git"
   },
-  "author": "",
+  "author": "Matthew Campbell <mjmcee@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maka-io/maka-cli/issues"
+    "url": "https://github.com/maka-io/maka-cli/issues",
+    "email": "mjmcee@gmail.com"
   },
-  "homepage": "https://github.com/maka-io/maka-cli#readme",
+  "homepage": "https://www.maka-cli.com",
   "dependencies": {
     "fibers": "^5.0.0"
-  }
+  },
+  "keywords": [
+    "flux",
+    "reflux",
+    "scaffold",
+    "scaffolding",
+    "meteor",
+    "maka",
+    "maka-cli",
+    "javascript",
+    "react",
+    "react-router",
+    "es6",
+    "server side rendering",
+    "ssr",
+    "graphql",
+    "apollo",
+    "jasmine",
+    "material-ui",
+    "postgresql",
+    "postgres",
+    "mssql"
+  ]
 }
