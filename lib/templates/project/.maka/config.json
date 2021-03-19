@@ -1,0 +1,28 @@
+{
+  "appName": "<%= config.appName %>",
+  "engines": {
+    "html": "<%= config.engines.html %>",
+    "js": "<%= config.engines.js %>",
+    "css": "<%= config.engines.css %>",
+    "api": "<%= config.engines.api %>",
+    "client": "<%= config.engines.client %>",
+    "test": "<%= config.engines.test %>",
+    "graphql": "<%= config.engines.graphql %>",
+    "ssr": "<%= config.engines.ssr %>"
+  },
+
+  "template": {
+    "html": "<%= config.template.html %>",
+    "js": "<%= config.template.js %>",
+    "css": "<%= config.template.css %>",
+    "test": "<%= config.template.test %>"
+  },
+  "route": {
+    "controller": "<%= config.route.controller %>",
+    "template": "<%= config.route.template %>"
+  },
+
+  "generator": {
+    "comments": "<%= config.generator.comments %>"
+  }
+}
