@@ -7,3 +7,18 @@ import { BlazeLayout } from 'meteor/kadira:blaze-layout';
  */
 
 import './templates.ts';
+
+/**
+ * * Name: Root 
+ * * URL: /
+ * * Layout: MasterLayout
+ * * Template: Home
+ * @memberof Client.Routes
+ * @member Home
+ */
+FlowRouter.route('/', {
+  name: 'Root',
+  action() {
+    BlazeLayout.render('MasterLayout', {yield: "Home"});
+  }
+});
