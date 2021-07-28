@@ -5,7 +5,7 @@ Please visit www.maka-cli.com for more information and documentation as well as 
 
 ## Installation
 ```
-  npm i -g maka-cli
+  npm i -g @maka/maka-cli
 ```
 
 ## Getting Started
