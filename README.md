@@ -21,7 +21,7 @@ Documentation has moved over to:
 [maka-cli.com](https://www.maka-cli.com/documentation#documentation)
 
 ## License
-Copyright (C) 2023 Campbell Labs, LLC.
+Copyright (C) 2023
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
  1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
