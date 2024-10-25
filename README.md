@@ -3,7 +3,7 @@
 </p>
 
 ## NOTICE
-Please use the (@maka/maka-cli)[https://www.npmjs.com/package/@maka/maka-cli] node module, rather than this one.
+Please use the [@maka/maka-cli](https://www.npmjs.com/package/@maka/maka-cli) node module, rather than this one.
 
 ## About
 Maka-CLI is a command line tool, which organizes a web application's file structure and automates everyday package installation tasks for various application frameworks
