@@ -1,0 +1,19 @@
+{
+  "name": "maka-cli",
+  "version": "3.2.75",
+  "description": "Legacy Maka-CLI, please use @maka/maka-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maka-io/maka-cli.git"
+  },
+  "author": "maka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maka-io/maka-cli/issues"
+  },
+  "homepage": "https://github.com/maka-io/maka-cli#readme"
+}
