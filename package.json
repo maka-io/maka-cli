@@ -1,10 +1,11 @@
 {
   "name": "maka-cli",
-  "version": "3.2.75",
-  "description": "Legacy Maka-CLI, please use @maka/maka-cli",
+  "version": "3.2.76",
+  "description": "Maka-CLI with patch for special characters in paths. Wraps @maka/maka-cli with fixes for paths containing '&' and other special characters.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node scripts/postinstall.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/maka-io/maka-cli/issues"
   },
-  "homepage": "https://github.com/maka-io/maka-cli#readme"
+  "homepage": "https://github.com/maka-io/maka-cli#readme",
+  "dependencies": {
+    "@maka/maka-cli": "^5.2.10"
+  }
 }
